@@ -9,11 +9,27 @@
         var top_left_control = new BMap.ScaleControl({
             anchor: BMAP_ANCHOR_TOP_LEFT
         });// 左上角，添加比例尺
+        var top_right_control = new BMap.CityListControl({  //右上角添加城市控件
+            anchor: BMAP_ANCHOR_TOP_RIGHT
+        });
 	    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
         map.addControl(top_left_control);
         map.addControl(top_left_navigation);
+        map.addControl(top_right_control);
+        // 根据浏览器定位
+        //var geolocation = new BMap.Geolocation();
+        //geolocation.getCurrentPosition(function(r) {
+        //    if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+        //        var mk = new BMap.Marker(r.point);
+        //        map.addOverlay(mk);
+        //        map.panTo(r.point);
+        //        alert('您的位置：'+ r.point.lng+","+ r.point.lat);
+        //        console.log(r.point)
+        //    }
+        //}, {enableHighAccuracy: true});
         map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
 	    map.enableScrollWheelZoom(true);     // 开启鼠标滚轮缩放
+        map.enableContinuousZoom();
         // 创建函数，在地图上添加标注
         addMarker = function(job) {
             var infoWindow, marker, sContent;
