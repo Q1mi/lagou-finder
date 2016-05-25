@@ -1,4 +1,4 @@
-LagouJobsFinder
+lagou-finder
 ===
 方便`就近`找到合适的工作
 ---
