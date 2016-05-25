@@ -42,6 +42,7 @@ lagou-finder
 ### sagaxu:
 1. Java和PHP都在工作中用了3年以上，Python使用强度没那么高，业余爱好就选它了。
 2. Python的Library非常丰富，十分适合做各种小工具，工作中我也常用它写simulator。
+
 ### Q1mi:
 1. 学习Python中...
 
