@@ -53,4 +53,4 @@ lagou-finder
 
 ## DEMO展示
 ![alt tag](https://github.com/sagaxu/lagou-finder/raw/master/demo.png)
-![alt tag](https://github.com/sagaxu/lagou-finder/raw/master/demo1.png)
+![demo1](https://github.com/Q1mi/lagou-finder/blob/master/demo1.png)
